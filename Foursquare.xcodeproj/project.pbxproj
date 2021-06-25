@@ -14,6 +14,8 @@
 		5FD81E2B26859BA3000304A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD81E2A26859BA3000304A3 /* Assets.xcassets */; };
 		5FD81E2E26859BA3000304A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD81E2C26859BA3000304A3 /* LaunchScreen.storyboard */; };
 		BF4F81D1268610200070C3A4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81D0268610200070C3A4 /* UIColor+Extension.swift */; };
+		BF4F81D4268615500070C3A4 /* Avenir Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF4F81D3268615500070C3A4 /* Avenir Book.ttf */; };
+		BF4F81D7268615E80070C3A4 /* UIImage+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81D6268615E80070C3A4 /* UIImage+Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5FD81E2D26859BA3000304A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FD81E2F26859BA3000304A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF4F81D0268610200070C3A4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		BF4F81D3268615500070C3A4 /* Avenir Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Avenir Book.ttf"; path = "../../../Downloads/Avenir Book/Avenir Book.ttf"; sourceTree = "<group>"; };
+		BF4F81D6268615E80070C3A4 /* UIImage+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +65,11 @@
 				5FD81E2126859BA1000304A3 /* AppDelegate.swift */,
 				BF4F81D0268610200070C3A4 /* UIColor+Extension.swift */,
 				5FD81E2326859BA1000304A3 /* SceneDelegate.swift */,
+				BF4F81D6268615E80070C3A4 /* UIImage+Extention.swift */,
 				5FD81E2526859BA1000304A3 /* ViewController.swift */,
 				5FD81E2726859BA1000304A3 /* Main.storyboard */,
 				5FD81E2A26859BA3000304A3 /* Assets.xcassets */,
+				BF4F81D3268615500070C3A4 /* Avenir Book.ttf */,
 				5FD81E2C26859BA3000304A3 /* LaunchScreen.storyboard */,
 				5FD81E2F26859BA3000304A3 /* Info.plist */,
 			);
@@ -130,6 +136,7 @@
 				5FD81E2E26859BA3000304A3 /* LaunchScreen.storyboard in Resources */,
 				5FD81E2B26859BA3000304A3 /* Assets.xcassets in Resources */,
 				5FD81E2926859BA1000304A3 /* Main.storyboard in Resources */,
+				BF4F81D4268615500070C3A4 /* Avenir Book.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4F81D7268615E80070C3A4 /* UIImage+Extention.swift in Sources */,
 				5FD81E2626859BA1000304A3 /* ViewController.swift in Sources */,
 				5FD81E2226859BA1000304A3 /* AppDelegate.swift in Sources */,
 				5FD81E2426859BA1000304A3 /* SceneDelegate.swift in Sources */,
