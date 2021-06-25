@@ -16,6 +16,8 @@
 		BF4F81D1268610200070C3A4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81D0268610200070C3A4 /* UIColor+Extension.swift */; };
 		BF4F81D4268615500070C3A4 /* Avenir Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF4F81D3268615500070C3A4 /* Avenir Book.ttf */; };
 		BF4F81D7268615E80070C3A4 /* UIImage+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81D6268615E80070C3A4 /* UIImage+Extention.swift */; };
+		BF4F81DA2686179D0070C3A4 /* AvenirBookFontWithSize20.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81D92686179D0070C3A4 /* AvenirBookFontWithSize20.swift */; };
+		BF4F81DE268617E00070C3A4 /* AvenirBookFontWIthSize15.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81DD268617E00070C3A4 /* AvenirBookFontWIthSize15.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		BF4F81D0268610200070C3A4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		BF4F81D3268615500070C3A4 /* Avenir Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Avenir Book.ttf"; path = "../../../Downloads/Avenir Book/Avenir Book.ttf"; sourceTree = "<group>"; };
 		BF4F81D6268615E80070C3A4 /* UIImage+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extention.swift"; sourceTree = "<group>"; };
+		BF4F81D92686179D0070C3A4 /* AvenirBookFontWithSize20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvenirBookFontWithSize20.swift; sourceTree = "<group>"; };
+		BF4F81DD268617E00070C3A4 /* AvenirBookFontWIthSize15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvenirBookFontWIthSize15.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				BF4F81D0268610200070C3A4 /* UIColor+Extension.swift */,
 				5FD81E2326859BA1000304A3 /* SceneDelegate.swift */,
 				BF4F81D6268615E80070C3A4 /* UIImage+Extention.swift */,
+				BF4F81D92686179D0070C3A4 /* AvenirBookFontWithSize20.swift */,
+				BF4F81DD268617E00070C3A4 /* AvenirBookFontWIthSize15.swift */,
 				5FD81E2526859BA1000304A3 /* ViewController.swift */,
 				5FD81E2726859BA1000304A3 /* Main.storyboard */,
 				5FD81E2A26859BA3000304A3 /* Assets.xcassets */,
@@ -148,6 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF4F81D7268615E80070C3A4 /* UIImage+Extention.swift in Sources */,
+				BF4F81DA2686179D0070C3A4 /* AvenirBookFontWithSize20.swift in Sources */,
+				BF4F81DE268617E00070C3A4 /* AvenirBookFontWIthSize15.swift in Sources */,
 				5FD81E2626859BA1000304A3 /* ViewController.swift in Sources */,
 				5FD81E2226859BA1000304A3 /* AppDelegate.swift in Sources */,
 				5FD81E2426859BA1000304A3 /* SceneDelegate.swift in Sources */,
