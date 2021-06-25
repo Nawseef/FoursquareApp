@@ -18,6 +18,7 @@
 		BF4F81D7268615E80070C3A4 /* UIImage+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81D6268615E80070C3A4 /* UIImage+Extention.swift */; };
 		BF4F81DA2686179D0070C3A4 /* AvenirBookFontWithSize20.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81D92686179D0070C3A4 /* AvenirBookFontWithSize20.swift */; };
 		BF4F81DE268617E00070C3A4 /* AvenirBookFontWIthSize15.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81DD268617E00070C3A4 /* AvenirBookFontWIthSize15.swift */; };
+		BF4F81E12686191F0070C3A4 /* BackgroundSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81E02686191E0070C3A4 /* BackgroundSettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		BF4F81D6268615E80070C3A4 /* UIImage+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extention.swift"; sourceTree = "<group>"; };
 		BF4F81D92686179D0070C3A4 /* AvenirBookFontWithSize20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvenirBookFontWithSize20.swift; sourceTree = "<group>"; };
 		BF4F81DD268617E00070C3A4 /* AvenirBookFontWIthSize15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvenirBookFontWIthSize15.swift; sourceTree = "<group>"; };
+		BF4F81E02686191E0070C3A4 /* BackgroundSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundSettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				5FD81E2326859BA1000304A3 /* SceneDelegate.swift */,
 				BF4F81D6268615E80070C3A4 /* UIImage+Extention.swift */,
 				BF4F81D92686179D0070C3A4 /* AvenirBookFontWithSize20.swift */,
+				BF4F81E02686191E0070C3A4 /* BackgroundSettingsView.swift */,
 				BF4F81DD268617E00070C3A4 /* AvenirBookFontWIthSize15.swift */,
 				5FD81E2526859BA1000304A3 /* ViewController.swift */,
 				5FD81E2726859BA1000304A3 /* Main.storyboard */,
@@ -156,6 +159,7 @@
 				BF4F81D7268615E80070C3A4 /* UIImage+Extention.swift in Sources */,
 				BF4F81DA2686179D0070C3A4 /* AvenirBookFontWithSize20.swift in Sources */,
 				BF4F81DE268617E00070C3A4 /* AvenirBookFontWIthSize15.swift in Sources */,
+				BF4F81E12686191F0070C3A4 /* BackgroundSettingsView.swift in Sources */,
 				5FD81E2626859BA1000304A3 /* ViewController.swift in Sources */,
 				5FD81E2226859BA1000304A3 /* AppDelegate.swift in Sources */,
 				5FD81E2426859BA1000304A3 /* SceneDelegate.swift in Sources */,
