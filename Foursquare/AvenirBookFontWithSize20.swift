@@ -31,17 +31,26 @@ class AvenirBookFontWithSize20: UITextField {
         bottomLine.backgroundColor = UIColor.textFieldTextColor().cgColor
         layer.addSublayer(bottomLine)
         self.borderStyle = .none
-        self.font = UIFont(name: "AvenirBook", size: 20)
+        self.font = UIFont(name: "AvenirBook", size: 15)
     }
     
     override func editingRect(forBounds bounds: CGRect) -> CGRect {
         
-        var newRect = bounds
-        newRect.origin.x = 50
-        newRect.size.width = bounds.size.width - 100
-        newRect.inset(by: UIEdgeInsets(top: 15, left: 0, bottom: 15, right: 0))
-        return newRect
+//        var newRect = bounds
+//        newRect.origin.x = 20
+//        newRect.size.width = bounds.size.width - 50
+//        newRect.inset(by: UIEdgeInsets(top: 15, left: 0, bottom: 15, right: 0))
+//        return newRect
+        return bounds.inset(by: UIEdgeInsets(top: 5, left: 20, bottom: 5, right: 20))
     }
     
-    
+    override func textRect(forBounds bounds: CGRect) -> CGRect {
+        
+//        var newRect = bounds
+//        newRect.origin.x = 22
+//        newRect.size.width = bounds.size.width - 44
+//
+//        return newRect
+        return bounds.inset(by: UIEdgeInsets(top: 5, left: 20, bottom: 5, right: 20))
+    }
 }

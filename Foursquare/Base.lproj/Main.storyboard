@@ -17,10 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WAT-VE-IDO">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WAT-VE-IDO">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zHv-xG-d9i">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zHv-xG-d9i">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Rbr-Zn-LJG">
@@ -29,10 +29,95 @@
                                                     <constraint firstAttribute="width" constant="220" id="Xo7-wa-Tr3"/>
                                                 </constraints>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0la-sc-8SK" customClass="AvenirBookFontWIthSize15" customModule="Foursquare" customModuleProvider="target">
+                                                <rect key="frame" x="167" y="161" width="41" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="jgY-K9-si4"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zFu-30-8wP" customClass="AvenirBookFontWithSize20" customModule="Foursquare" customModuleProvider="target">
+                                                <rect key="frame" x="30" y="181" width="315" height="35"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGN-rH-JOQ" customClass="AvenirBookFontWIthSize15" customModule="Foursquare" customModuleProvider="target">
+                                                <rect key="frame" x="129" y="226" width="117" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="C1X-QX-bOb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LnK-GN-EYn" customClass="AvenirBookFontWithSize20" customModule="Foursquare" customModuleProvider="target">
+                                                <rect key="frame" x="30" y="246" width="315" height="35"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWS-Xx-4L7" customClass="AvenirBookFontWIthSize15" customModule="Foursquare" customModuleProvider="target">
+                                                <rect key="frame" x="151" y="291" width="73.5" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="dhr-AC-oNf"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Lw-xn-SCa" customClass="AvenirBookFontWithSize20" customModule="Foursquare" customModuleProvider="target">
+                                                <rect key="frame" x="30" y="311" width="315" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="35" id="TTN-az-Z5H"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conform Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78J-Tb-4IO" customClass="AvenirBookFontWIthSize15" customModule="Foursquare" customModuleProvider="target">
+                                                <rect key="frame" x="115.5" y="356" width="144.5" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="1Vi-3a-ZQ1"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wUf-d3-bv5" customClass="AvenirBookFontWithSize20" customModule="Foursquare" customModuleProvider="target">
+                                                <rect key="frame" x="30" y="376" width="315" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="35" id="ZqM-lL-Wek"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
                                         </subviews>
                                         <constraints>
+                                            <constraint firstItem="WWS-Xx-4L7" firstAttribute="top" secondItem="LnK-GN-EYn" secondAttribute="bottom" constant="10" id="0Hc-0e-ubu"/>
+                                            <constraint firstItem="0la-sc-8SK" firstAttribute="top" secondItem="Rbr-Zn-LJG" secondAttribute="bottom" constant="55" id="0zQ-PE-lTI"/>
+                                            <constraint firstItem="zFu-30-8wP" firstAttribute="leading" secondItem="zHv-xG-d9i" secondAttribute="leading" constant="30" id="21o-Bh-QhI"/>
+                                            <constraint firstAttribute="trailing" secondItem="7Lw-xn-SCa" secondAttribute="trailing" constant="30" id="3uf-Oe-BoE"/>
+                                            <constraint firstItem="LnK-GN-EYn" firstAttribute="top" secondItem="bGN-rH-JOQ" secondAttribute="bottom" id="4iC-lk-Ilu"/>
+                                            <constraint firstItem="wUf-d3-bv5" firstAttribute="top" secondItem="78J-Tb-4IO" secondAttribute="bottom" id="6vh-mg-fzf"/>
+                                            <constraint firstItem="7Lw-xn-SCa" firstAttribute="top" secondItem="WWS-Xx-4L7" secondAttribute="bottom" id="7A7-gJ-LNS"/>
+                                            <constraint firstItem="0la-sc-8SK" firstAttribute="centerX" secondItem="zHv-xG-d9i" secondAttribute="centerX" id="BoD-CD-PaS"/>
+                                            <constraint firstItem="wUf-d3-bv5" firstAttribute="leading" secondItem="zHv-xG-d9i" secondAttribute="leading" constant="30" id="CYd-Za-xFW"/>
+                                            <constraint firstAttribute="trailing" secondItem="wUf-d3-bv5" secondAttribute="trailing" constant="30" id="Db5-RN-4fg"/>
+                                            <constraint firstItem="zFu-30-8wP" firstAttribute="top" secondItem="0la-sc-8SK" secondAttribute="bottom" id="E4X-he-jSS"/>
+                                            <constraint firstAttribute="trailing" secondItem="LnK-GN-EYn" secondAttribute="trailing" constant="30" id="Fbb-Fd-tmn"/>
+                                            <constraint firstItem="bGN-rH-JOQ" firstAttribute="centerX" secondItem="zHv-xG-d9i" secondAttribute="centerX" id="Hyy-gA-jdJ"/>
                                             <constraint firstItem="Rbr-Zn-LJG" firstAttribute="centerX" secondItem="zHv-xG-d9i" secondAttribute="centerX" id="Mhv-iH-W3u"/>
+                                            <constraint firstItem="7Lw-xn-SCa" firstAttribute="leading" secondItem="zHv-xG-d9i" secondAttribute="leading" constant="30" id="QCQ-o3-vcf"/>
+                                            <constraint firstAttribute="trailing" secondItem="zFu-30-8wP" secondAttribute="trailing" constant="30" id="Qrs-KN-vgx"/>
+                                            <constraint firstItem="WWS-Xx-4L7" firstAttribute="centerX" secondItem="zHv-xG-d9i" secondAttribute="centerX" id="R1Y-rg-uJv"/>
+                                            <constraint firstItem="7Lw-xn-SCa" firstAttribute="height" secondItem="zHv-xG-d9i" secondAttribute="height" multiplier="0.0524691" id="RVQ-WZ-QYP"/>
+                                            <constraint firstItem="78J-Tb-4IO" firstAttribute="top" secondItem="7Lw-xn-SCa" secondAttribute="bottom" constant="10" id="eqv-NE-3ab"/>
+                                            <constraint firstItem="bGN-rH-JOQ" firstAttribute="top" secondItem="zFu-30-8wP" secondAttribute="bottom" constant="10" id="heN-QY-v8o"/>
+                                            <constraint firstItem="LnK-GN-EYn" firstAttribute="leading" secondItem="zHv-xG-d9i" secondAttribute="leading" constant="30" id="mqW-HX-Coq"/>
                                             <constraint firstItem="Rbr-Zn-LJG" firstAttribute="top" secondItem="zHv-xG-d9i" secondAttribute="top" constant="70" id="qVQ-NN-dp2"/>
+                                            <constraint firstItem="zFu-30-8wP" firstAttribute="height" secondItem="zHv-xG-d9i" secondAttribute="height" multiplier="0.0524738" id="xkq-Hv-46g"/>
+                                            <constraint firstItem="78J-Tb-4IO" firstAttribute="centerX" secondItem="zHv-xG-d9i" secondAttribute="centerX" id="xxM-zU-3cV"/>
+                                            <constraint firstItem="LnK-GN-EYn" firstAttribute="height" secondItem="zHv-xG-d9i" secondAttribute="height" multiplier="0.0524691" id="y5I-Zb-mV2"/>
                                         </constraints>
                                     </view>
                                 </subviews>
