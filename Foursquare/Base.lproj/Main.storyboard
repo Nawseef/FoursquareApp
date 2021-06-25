@@ -28,7 +28,7 @@
                                                     <constraint firstAttribute="width" secondItem="c8U-Qb-kvy" secondAttribute="height" multiplier="22:3" id="Dzl-Sb-tu3"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KSw-tF-XHe">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KSw-tF-XHe">
                                                 <rect key="frame" x="167" y="155" width="41" height="20"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="KSw-tF-XHe" secondAttribute="height" multiplier="41:20" id="mlN-lS-uEk"/>
@@ -42,19 +42,40 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OyJ-qf-3OH">
+                                                <rect key="frame" x="150.5" y="220" width="74" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="OyJ-qf-3OH" secondAttribute="height" multiplier="74:21" id="Iln-DM-pxQ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mTN-lb-DNh">
+                                                <rect key="frame" x="30" y="241" width="315" height="35"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="KSw-tF-XHe" firstAttribute="height" secondItem="P6t-qL-Rq6" secondAttribute="height" multiplier="0.029985" id="4cp-g0-erc"/>
                                             <constraint firstItem="c8U-Qb-kvy" firstAttribute="height" secondItem="P6t-qL-Rq6" secondAttribute="height" multiplier="0.0449775" id="9yX-eK-7hG"/>
+                                            <constraint firstItem="OyJ-qf-3OH" firstAttribute="height" secondItem="P6t-qL-Rq6" secondAttribute="height" multiplier="0.0314843" id="E5g-sM-BrY"/>
+                                            <constraint firstItem="mTN-lb-DNh" firstAttribute="leading" secondItem="P6t-qL-Rq6" secondAttribute="leading" constant="30" id="IDm-y0-G7R"/>
                                             <constraint firstItem="c8U-Qb-kvy" firstAttribute="top" secondItem="P6t-qL-Rq6" secondAttribute="top" constant="70" id="Mti-iA-V0q"/>
                                             <constraint firstAttribute="trailing" secondItem="mc3-uc-LJv" secondAttribute="trailing" constant="30" id="NNq-SN-XL0"/>
+                                            <constraint firstItem="OyJ-qf-3OH" firstAttribute="centerX" secondItem="P6t-qL-Rq6" secondAttribute="centerX" id="S2S-a4-kvM"/>
                                             <constraint firstItem="KSw-tF-XHe" firstAttribute="top" secondItem="c8U-Qb-kvy" secondAttribute="bottom" constant="55" id="UEG-In-hid"/>
+                                            <constraint firstItem="mTN-lb-DNh" firstAttribute="top" secondItem="OyJ-qf-3OH" secondAttribute="bottom" id="Uz2-cn-bXS"/>
                                             <constraint firstItem="c8U-Qb-kvy" firstAttribute="centerX" secondItem="P6t-qL-Rq6" secondAttribute="centerX" id="WiP-0q-GCD"/>
                                             <constraint firstItem="mc3-uc-LJv" firstAttribute="leading" secondItem="P6t-qL-Rq6" secondAttribute="leading" constant="30" id="Zyr-NF-fhV"/>
                                             <constraint firstItem="mc3-uc-LJv" firstAttribute="height" secondItem="P6t-qL-Rq6" secondAttribute="height" multiplier="0.0524738" id="crP-Ug-HmX"/>
+                                            <constraint firstItem="OyJ-qf-3OH" firstAttribute="top" secondItem="mc3-uc-LJv" secondAttribute="bottom" constant="10" id="gyF-Uw-D7J"/>
+                                            <constraint firstItem="mTN-lb-DNh" firstAttribute="height" secondItem="P6t-qL-Rq6" secondAttribute="height" multiplier="0.0524738" id="kQY-iw-9L0"/>
                                             <constraint firstItem="mc3-uc-LJv" firstAttribute="top" secondItem="KSw-tF-XHe" secondAttribute="bottom" id="l7n-8W-oTg"/>
                                             <constraint firstItem="KSw-tF-XHe" firstAttribute="centerX" secondItem="P6t-qL-Rq6" secondAttribute="centerX" id="xyR-4r-GNl"/>
+                                            <constraint firstAttribute="trailing" secondItem="mTN-lb-DNh" secondAttribute="trailing" constant="30" id="zRR-We-XXg"/>
                                         </constraints>
                                     </view>
                                 </subviews>
