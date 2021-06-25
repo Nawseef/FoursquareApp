@@ -20,6 +20,7 @@ class LoginScreenBackground: UIView {
         
         if let backgroundImage = UIImage(named: "login_bg") {
             self.layer.contents = backgroundImage.cgImage
+            
         }
         
     }
