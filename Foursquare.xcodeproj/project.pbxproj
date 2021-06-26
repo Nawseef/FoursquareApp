@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FAA4DDB2685DEF3007C9D01 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAA4DDA2685DEF3007C9D01 /* LoginViewController.swift */; };
-		5FAA4DDF2685DFD3007C9D01 /* LoginScreenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAA4DDE2685DFD3007C9D01 /* LoginScreenBackground.swift */; };
 		5FD81E2226859BA1000304A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD81E2126859BA1000304A3 /* AppDelegate.swift */; };
 		5FD81E2426859BA1000304A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD81E2326859BA1000304A3 /* SceneDelegate.swift */; };
+		5FD81E2626859BA1000304A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD81E2526859BA1000304A3 /* ViewController.swift */; };
+		5FD81E2926859BA1000304A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD81E2726859BA1000304A3 /* Main.storyboard */; };
 		5FD81E2B26859BA3000304A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD81E2A26859BA3000304A3 /* Assets.xcassets */; };
 		5FD81E2E26859BA3000304A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD81E2C26859BA3000304A3 /* LaunchScreen.storyboard */; };
+		BF4F81D1268610200070C3A4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81D0268610200070C3A4 /* UIColor+Extension.swift */; };
+		BF4F81D4268615500070C3A4 /* Avenir Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF4F81D3268615500070C3A4 /* Avenir Book.ttf */; };
+		BF4F81D7268615E80070C3A4 /* UIImage+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81D6268615E80070C3A4 /* UIImage+Extention.swift */; };
+		BF4F81DA2686179D0070C3A4 /* AvenirBookFontWithSize20.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81D92686179D0070C3A4 /* AvenirBookFontWithSize20.swift */; };
+		BF4F81DE268617E00070C3A4 /* AvenirBookFontWIthSize15.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81DD268617E00070C3A4 /* AvenirBookFontWIthSize15.swift */; };
+		BF4F81E12686191F0070C3A4 /* BackgroundSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81E02686191E0070C3A4 /* BackgroundSettingsView.swift */; };
+		BF4F81E426861B420070C3A4 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81E326861B420070C3A4 /* SignUpController.swift */; };
+		BF5BFEA02686E11900EC9E19 /* CustomLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5BFE9F2686E11900EC9E19 /* CustomLoginButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5FAA4DDA2685DEF3007C9D01 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		5FAA4DDE2685DFD3007C9D01 /* LoginScreenBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenBackground.swift; sourceTree = "<group>"; };
 		5FD81E1E26859BA1000304A3 /* Foursquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foursquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD81E2126859BA1000304A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FD81E2326859BA1000304A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5FD81E2526859BA1000304A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FD81E2826859BA1000304A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FD81E2A26859BA3000304A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FD81E2D26859BA3000304A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FD81E2F26859BA3000304A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4F81D0268610200070C3A4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		BF4F81D3268615500070C3A4 /* Avenir Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Avenir Book.ttf"; path = "../../../Downloads/Avenir Book/Avenir Book.ttf"; sourceTree = "<group>"; };
+		BF4F81D6268615E80070C3A4 /* UIImage+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extention.swift"; sourceTree = "<group>"; };
+		BF4F81D92686179D0070C3A4 /* AvenirBookFontWithSize20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvenirBookFontWithSize20.swift; sourceTree = "<group>"; };
+		BF4F81DD268617E00070C3A4 /* AvenirBookFontWIthSize15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvenirBookFontWIthSize15.swift; sourceTree = "<group>"; };
+		BF4F81E02686191E0070C3A4 /* BackgroundSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundSettingsView.swift; sourceTree = "<group>"; };
+		BF4F81E326861B420070C3A4 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		BF5BFE9F2686E11900EC9E19 /* CustomLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoginButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +73,18 @@
 			isa = PBXGroup;
 			children = (
 				5FD81E2126859BA1000304A3 /* AppDelegate.swift */,
+				BF4F81D0268610200070C3A4 /* UIColor+Extension.swift */,
 				5FD81E2326859BA1000304A3 /* SceneDelegate.swift */,
-				5FAA4DDA2685DEF3007C9D01 /* LoginViewController.swift */,
-				5FAA4DDE2685DFD3007C9D01 /* LoginScreenBackground.swift */,
+				BF4F81D6268615E80070C3A4 /* UIImage+Extention.swift */,
+				BF4F81D92686179D0070C3A4 /* AvenirBookFontWithSize20.swift */,
+				BF5BFE9F2686E11900EC9E19 /* CustomLoginButton.swift */,
+				BF4F81E02686191E0070C3A4 /* BackgroundSettingsView.swift */,
+				BF4F81DD268617E00070C3A4 /* AvenirBookFontWIthSize15.swift */,
+				5FD81E2526859BA1000304A3 /* ViewController.swift */,
+				5FD81E2726859BA1000304A3 /* Main.storyboard */,
+				BF4F81E326861B420070C3A4 /* SignUpController.swift */,
 				5FD81E2A26859BA3000304A3 /* Assets.xcassets */,
+				BF4F81D3268615500070C3A4 /* Avenir Book.ttf */,
 				5FD81E2C26859BA3000304A3 /* LaunchScreen.storyboard */,
 				5FD81E2F26859BA3000304A3 /* Info.plist */,
 			);
@@ -126,6 +150,8 @@
 			files = (
 				5FD81E2E26859BA3000304A3 /* LaunchScreen.storyboard in Resources */,
 				5FD81E2B26859BA3000304A3 /* Assets.xcassets in Resources */,
+				5FD81E2926859BA1000304A3 /* Main.storyboard in Resources */,
+				BF4F81D4268615500070C3A4 /* Avenir Book.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,16 +162,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FAA4DDB2685DEF3007C9D01 /* LoginViewController.swift in Sources */,
+				BF4F81D7268615E80070C3A4 /* UIImage+Extention.swift in Sources */,
+				BF4F81DA2686179D0070C3A4 /* AvenirBookFontWithSize20.swift in Sources */,
+				BF4F81E426861B420070C3A4 /* SignUpController.swift in Sources */,
+				BF4F81DE268617E00070C3A4 /* AvenirBookFontWIthSize15.swift in Sources */,
+				BF4F81E12686191F0070C3A4 /* BackgroundSettingsView.swift in Sources */,
+				5FD81E2626859BA1000304A3 /* ViewController.swift in Sources */,
+				BF5BFEA02686E11900EC9E19 /* CustomLoginButton.swift in Sources */,
 				5FD81E2226859BA1000304A3 /* AppDelegate.swift in Sources */,
 				5FD81E2426859BA1000304A3 /* SceneDelegate.swift in Sources */,
-				5FAA4DDF2685DFD3007C9D01 /* LoginScreenBackground.swift in Sources */,
+				BF4F81D1268610200070C3A4 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		5FD81E2726859BA1000304A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD81E2826859BA1000304A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		5FD81E2C26859BA3000304A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
