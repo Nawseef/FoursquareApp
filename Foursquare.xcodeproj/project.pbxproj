@@ -24,6 +24,7 @@
 		BF5BFEB3268738A500EC9E19 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5BFEB2268738A500EC9E19 /* User.swift */; };
 		BF5BFEB62687392A00EC9E19 /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5BFEB52687392A00EC9E19 /* LogInViewModel.swift */; };
 		BF5BFEB926873B0000EC9E19 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5BFEB826873B0000EC9E19 /* UIAlertController+Extension.swift */; };
+		BF5BFEC226874C6700EC9E19 /* Avenir Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF5BFEC126874C6700EC9E19 /* Avenir Book.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		BF5BFEB2268738A500EC9E19 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BF5BFEB52687392A00EC9E19 /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
 		BF5BFEB826873B0000EC9E19 /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		BF5BFEC126874C6700EC9E19 /* Avenir Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Avenir Book.ttf"; path = "../../../../Downloads/Avenir Book/Avenir Book.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				BF4F81DD268617E00070C3A4 /* AvenirBookFontWIthSize15.swift */,
 				5F6BBCC726873171006FC67E /* LoginViewController.swift */,
 				BF4F81E326861B420070C3A4 /* SignUpController.swift */,
+				BF5BFEC126874C6700EC9E19 /* Avenir Book.ttf */,
 				5FD81E2726859BA1000304A3 /* Main.storyboard */,
 				BF5BFEB2268738A500EC9E19 /* User.swift */,
 				BF5BFEB52687392A00EC9E19 /* LogInViewModel.swift */,
@@ -160,6 +163,7 @@
 				5FD81E2E26859BA3000304A3 /* LaunchScreen.storyboard in Resources */,
 				5FD81E2B26859BA3000304A3 /* Assets.xcassets in Resources */,
 				5FD81E2926859BA1000304A3 /* Main.storyboard in Resources */,
+				BF5BFEC226874C6700EC9E19 /* Avenir Book.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
