@@ -28,10 +28,11 @@ class AvenirBookFontWithSize20: UITextField {
         self.textColor = UIColor.textFieldTextColor()
         let bottomLine = CALayer()
         bottomLine.frame = CGRect(x: 0, y: self.frame.size.height - 1, width: self.frame.size.width, height: 1)
+        print("width is\(self.frame.size.width)")
         bottomLine.backgroundColor = UIColor.textFieldTextColor().cgColor
         layer.addSublayer(bottomLine)
         self.borderStyle = .none
-        self.font = UIFont(name: "AvenirBook", size: 15)
+        self.font = UIFont(name: "AvenirBook", size: 20)
     }
     
     override func editingRect(forBounds bounds: CGRect) -> CGRect {
@@ -54,3 +55,4 @@ class AvenirBookFontWithSize20: UITextField {
         return bounds.inset(by: UIEdgeInsets(top: 5, left: 20, bottom: 5, right: 20))
     }
 }
+

@@ -13,18 +13,15 @@ extension UIColor {
         let r, g, b, a: CGFloat
 
         if hex.hasPrefix("#") {
-            print("1")
             let start = hex.index(hex.startIndex, offsetBy: 1)
             let hexColor = String(hex[start...])
 
             if hexColor.count == 6 {
-                print("2")
                 let scanner = Scanner(string: hexColor)
                 print(scanner)
                 var hexNumber: UInt64 = 0
 
                 if scanner.scanHexInt64(&hexNumber) {
-                    print("a")
                     r = CGFloat((hexNumber & 0xff0000) >> 16) / 255
                     print("for r\(CGFloat((hexNumber & 0xff00) >> 24))")
                     g = CGFloat((hexNumber & 0x00ff00) >> 8) / 255

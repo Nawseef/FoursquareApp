@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CustomeLoginButton: UIButton {
+class CustomLoginButton: UIButton {
     
     override init(frame: CGRect) {
         
