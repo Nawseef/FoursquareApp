@@ -53,6 +53,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F6BBCCE268736B7006FC67E /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BF4F81D92686179D0070C3A4 /* AvenirBookFontWithSize20.swift */,
+				BF4F81DD268617E00070C3A4 /* AvenirBookFontWIthSize15.swift */,
+				BF5BFE9F2686E11900EC9E19 /* CustomLoginButton.swift */,
+				5F6BBCCB268733BD006FC67E /* LoginScreenBackground.swift */,
+				BF4F81E02686191E0070C3A4 /* BackgroundSettingsView.swift */,
+			);
+			path = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		5F6BBCCF268736E1006FC67E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BF4F81D6268615E80070C3A4 /* UIImage+Extention.swift */,
+				BF4F81D0268610200070C3A4 /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		5FD81E1526859BA1000304A3 = {
 			isa = PBXGroup;
 			children = (
@@ -73,19 +94,14 @@
 			isa = PBXGroup;
 			children = (
 				5FD81E2126859BA1000304A3 /* AppDelegate.swift */,
-				BF4F81D0268610200070C3A4 /* UIColor+Extension.swift */,
 				5FD81E2326859BA1000304A3 /* SceneDelegate.swift */,
-				BF4F81D6268615E80070C3A4 /* UIImage+Extention.swift */,
-				BF4F81D92686179D0070C3A4 /* AvenirBookFontWithSize20.swift */,
-				BF5BFE9F2686E11900EC9E19 /* CustomLoginButton.swift */,
-				5F6BBCCB268733BD006FC67E /* LoginScreenBackground.swift */,
-				BF4F81E02686191E0070C3A4 /* BackgroundSettingsView.swift */,
-				BF4F81DD268617E00070C3A4 /* AvenirBookFontWIthSize15.swift */,
 				5F6BBCC726873171006FC67E /* LoginViewController.swift */,
 				BF4F81E326861B420070C3A4 /* SignUpController.swift */,
+				5F6BBCCF268736E1006FC67E /* Extension */,
+				5F6BBCCE268736B7006FC67E /* Custom Classes */,
 				5FD81E2726859BA1000304A3 /* Main.storyboard */,
-				5FD81E2A26859BA3000304A3 /* Assets.xcassets */,
 				5FD81E2C26859BA3000304A3 /* LaunchScreen.storyboard */,
+				5FD81E2A26859BA3000304A3 /* Assets.xcassets */,
 				5FD81E2F26859BA3000304A3 /* Info.plist */,
 			);
 			path = Foursquare;
