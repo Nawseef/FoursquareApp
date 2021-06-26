@@ -20,6 +20,7 @@ class SignUpController: UIViewController {
         // Do any additional setup after loading the view.
     print("newtry")
         print("123")
+        print("hello")
     }
     
     override func viewDidLayoutSubviews() {
