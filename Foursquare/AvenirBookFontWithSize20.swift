@@ -39,7 +39,7 @@ class AvenirBookFontWithSize20: UITextField {
 //        var newRect = bounds
 //        newRect.origin.x = 20
 //        newRect.size.width = bounds.size.width - 50
-//        newRect.inset(by: UIEdgeInsets(top: 15, left: 0, bottom: 15, right: 0))
+//        newRect.inset(by: UIEdgeInsets(top: 5, left: 0, bottom: 5, right: 0))
 //        return newRect
         return bounds.inset(by: UIEdgeInsets(top: 5, left: 20, bottom: 5, right: 20))
     }
@@ -49,7 +49,7 @@ class AvenirBookFontWithSize20: UITextField {
 //        var newRect = bounds
 //        newRect.origin.x = 22
 //        newRect.size.width = bounds.size.width - 44
-//
+//        newRect.inset(by: UIEdgeInsets(top: 5, left: 0, bottom: 5, right: 0))
 //        return newRect
         return bounds.inset(by: UIEdgeInsets(top: 5, left: 20, bottom: 5, right: 20))
     }

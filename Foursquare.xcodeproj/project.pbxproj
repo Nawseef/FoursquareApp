@@ -20,6 +20,7 @@
 		BF4F81DE268617E00070C3A4 /* AvenirBookFontWIthSize15.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81DD268617E00070C3A4 /* AvenirBookFontWIthSize15.swift */; };
 		BF4F81E12686191F0070C3A4 /* BackgroundSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81E02686191E0070C3A4 /* BackgroundSettingsView.swift */; };
 		BF4F81E426861B420070C3A4 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81E326861B420070C3A4 /* SignUpController.swift */; };
+		BF5BFEA02686E11900EC9E19 /* CustomeLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5BFE9F2686E11900EC9E19 /* CustomeLoginButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		BF4F81DD268617E00070C3A4 /* AvenirBookFontWIthSize15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvenirBookFontWIthSize15.swift; sourceTree = "<group>"; };
 		BF4F81E02686191E0070C3A4 /* BackgroundSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundSettingsView.swift; sourceTree = "<group>"; };
 		BF4F81E326861B420070C3A4 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		BF5BFE9F2686E11900EC9E19 /* CustomeLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeLoginButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				5FD81E2326859BA1000304A3 /* SceneDelegate.swift */,
 				BF4F81D6268615E80070C3A4 /* UIImage+Extention.swift */,
 				BF4F81D92686179D0070C3A4 /* AvenirBookFontWithSize20.swift */,
+				BF5BFE9F2686E11900EC9E19 /* CustomeLoginButton.swift */,
 				BF4F81E02686191E0070C3A4 /* BackgroundSettingsView.swift */,
 				BF4F81DD268617E00070C3A4 /* AvenirBookFontWIthSize15.swift */,
 				5FD81E2526859BA1000304A3 /* ViewController.swift */,
@@ -165,6 +168,7 @@
 				BF4F81DE268617E00070C3A4 /* AvenirBookFontWIthSize15.swift in Sources */,
 				BF4F81E12686191F0070C3A4 /* BackgroundSettingsView.swift in Sources */,
 				5FD81E2626859BA1000304A3 /* ViewController.swift in Sources */,
+				BF5BFEA02686E11900EC9E19 /* CustomeLoginButton.swift in Sources */,
 				5FD81E2226859BA1000304A3 /* AppDelegate.swift in Sources */,
 				5FD81E2426859BA1000304A3 /* SceneDelegate.swift in Sources */,
 				BF4F81D1268610200070C3A4 /* UIColor+Extension.swift in Sources */,
