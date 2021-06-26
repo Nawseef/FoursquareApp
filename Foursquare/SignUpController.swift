@@ -70,7 +70,6 @@ class SignUpController: UIViewController {
         }
     
         logInViewModel.addUserDetails(eMail: eMail, mobileNumber: mobileNumber, password: password)
+    
     }
-
-
 }

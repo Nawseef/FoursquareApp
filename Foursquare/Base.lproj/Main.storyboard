@@ -239,7 +239,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LnK-GN-EYn" customClass="AvenirBookFontWithSize20" customModule="Foursquare" customModuleProvider="target">
+                                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LnK-GN-EYn" customClass="AvenirBookFontWithSize20" customModule="Foursquare" customModuleProvider="target">
                                                 <rect key="frame" x="30" y="257" width="315" height="42"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="315" id="xFB-Zv-0eU"/>
