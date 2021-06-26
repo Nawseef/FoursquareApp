@@ -19,6 +19,7 @@ class SignUpController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     print("newtry")
+        print("123")
     }
     
     override func viewDidLayoutSubviews() {
