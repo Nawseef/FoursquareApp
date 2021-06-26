@@ -10,4 +10,21 @@ import Foundation
 class logInViewModel {
     
     var userDetails: [String: User] = [:]
+    
+    func addUserDetails(eMail: String, mobileNumber: String, password: String){
+        
+        let user = User(eMail: eMail, mobileNumber: mobileNumber, password: password)
+        userDetails[eMail] = user
+    }
+    
+    func isAccountExist(eMail: String) -> Bool {
+        
+        if (userDetails.keys.contains(eMail)){
+        return true
+        } else {
+            return false
+        }
+    }
+    
+    
 }
