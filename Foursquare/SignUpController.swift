@@ -31,6 +31,7 @@ class SignUpController: UIViewController {
         
         if let view = view as? BackgroundSettingsView {
           view.backgroundImage.frame = self.view.bounds
+            print("yes")
         }
         
         if (!IsheightNotSet) {
