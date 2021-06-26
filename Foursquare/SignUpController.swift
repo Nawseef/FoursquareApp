@@ -18,6 +18,7 @@ class SignUpController: UIViewController {
     
     var subViewHeight: CGFloat = 0.0
     var IsheightNotSet: Bool = false
+    var logInViewModel = LogInViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,6 +51,26 @@ class SignUpController: UIViewController {
         
         contentView.addConstraint(height)
     }
+    
+    @IBAction func logIn(_ sender: Any) {
+        
+        guard let eMail = eMailTextField.text, let mobileNumber = mobileNumberTextField.text, let password = passwordTextField.text, let conformPassword = conformPasswordTextField.text, !eMail.isEmpty, !mobileNumber.isEmpty, !password.isEmpty, !conformPassword.isEmpty else {
+            UIAlertController.alert(title: "Sorry!", message: "please enter required fields", parentViewController: self )
+            return
+        }
+        
+        if (logInViewModel.isAccountExist(eMail: eMail)) {
+           UIAlertController.alert(title: "Sorry!", message: "Account already exist, please login", parentViewController: self)
+            return
+        }
+        
+        if (password != conformPassword) {
+            UIAlertController.alert(title: "Sorry!", message: "password does not match", parentViewController: self)
+            return
+        }
+    
+        logInViewModel.addUserDetails(eMail: eMail, mobileNumber: mobileNumber, password: password)
+    }
+
+
 }
-
-

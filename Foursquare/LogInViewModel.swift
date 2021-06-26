@@ -7,7 +7,7 @@
 
 import Foundation
 
-class logInViewModel {
+class LogInViewModel {
     
     var userDetails: [String: User] = [:]
     
