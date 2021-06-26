@@ -9,6 +9,8 @@ import UIKit
 
 class SignUpController: UIViewController {
     
+    var a = 1
+    
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var contentView: UIView!
     
