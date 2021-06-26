@@ -21,6 +21,8 @@
 		BF4F81E12686191F0070C3A4 /* BackgroundSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81E02686191E0070C3A4 /* BackgroundSettingsView.swift */; };
 		BF4F81E426861B420070C3A4 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81E326861B420070C3A4 /* SignUpController.swift */; };
 		BF5BFEA02686E11900EC9E19 /* CustomLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5BFE9F2686E11900EC9E19 /* CustomLoginButton.swift */; };
+		BF5BFEB3268738A500EC9E19 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5BFEB2268738A500EC9E19 /* User.swift */; };
+		BF5BFEB62687392A00EC9E19 /* LoginInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5BFEB52687392A00EC9E19 /* LoginInViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		BF4F81E02686191E0070C3A4 /* BackgroundSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundSettingsView.swift; sourceTree = "<group>"; };
 		BF4F81E326861B420070C3A4 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		BF5BFE9F2686E11900EC9E19 /* CustomLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoginButton.swift; sourceTree = "<group>"; };
+		BF5BFEB2268738A500EC9E19 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BF5BFEB52687392A00EC9E19 /* LoginInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				5F6BBCC726873171006FC67E /* LoginViewController.swift */,
 				BF4F81E326861B420070C3A4 /* SignUpController.swift */,
 				5FD81E2726859BA1000304A3 /* Main.storyboard */,
+				BF5BFEB2268738A500EC9E19 /* User.swift */,
+				BF5BFEB52687392A00EC9E19 /* LoginInViewModel.swift */,
 				5FD81E2A26859BA3000304A3 /* Assets.xcassets */,
 				5FD81E2C26859BA3000304A3 /* LaunchScreen.storyboard */,
 				5FD81E2F26859BA3000304A3 /* Info.plist */,
@@ -169,8 +175,10 @@
 				BF4F81E12686191F0070C3A4 /* BackgroundSettingsView.swift in Sources */,
 				BF5BFEA02686E11900EC9E19 /* CustomLoginButton.swift in Sources */,
 				5FD81E2226859BA1000304A3 /* AppDelegate.swift in Sources */,
+				BF5BFEB3268738A500EC9E19 /* User.swift in Sources */,
 				5FD81E2426859BA1000304A3 /* SceneDelegate.swift in Sources */,
 				5F6BBCC826873171006FC67E /* LoginViewController.swift in Sources */,
+				BF5BFEB62687392A00EC9E19 /* LoginInViewModel.swift in Sources */,
 				BF4F81D1268610200070C3A4 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

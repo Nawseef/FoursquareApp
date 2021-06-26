@@ -9,10 +9,12 @@ import UIKit
 
 class SignUpController: UIViewController {
     
-    var a = 1
-    
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var contentView: UIView!
+    @IBOutlet weak var eMailTextField: AvenirBookFontWithSize20!
+    @IBOutlet weak var mobileNumberTextField: AvenirBookFontWithSize20!
+    @IBOutlet weak var passwordTextField: AvenirBookFontWithSize20!
+    @IBOutlet weak var conformPasswordTextField: AvenirBookFontWithSize20!
     
     var subViewHeight: CGFloat = 0.0
     var IsheightNotSet: Bool = false
@@ -20,9 +22,8 @@ class SignUpController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    print("newtry")
-        print("123")
-        print("hello")
+        passwordTextField.isSecureTextEntry = true
+        conformPasswordTextField.isSecureTextEntry = true
     }
     
     override func viewDidLayoutSubviews() {
